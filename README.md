@@ -1,36 +1,31 @@
-# Next.js Projekt - Anleitung
+# 🎓 IHK-Notenrechner
 
-## Voraussetzungen
+Ein moderner Notenrechner für die Abschlussprüfung der IT-Berufe (Fachinformatiker) in Deutschland. Der Rechner berücksichtigt alle aktuellen IHK-Prüfungsregeln inklusive Ergänzungsprüfungen.
 
-Um mit dem Next.js Projekt zu starten, stelle sicher, dass folgende Software installiert ist:
+## ✨ Features
 
-- **Node.js** (Version 16 oder höher)  
-  [Node.js herunterladen](https://nodejs.org)
+- 🧮 Präzise Berechnung nach IHK-Gewichtung:
+- Teil 1 (20%)
+- Teil 2 Schriftlich (30%)
+- Teil 2 Projektarbeit (50%)
+  ✅ Automatische Prüfung der Bestehensregeln
+  🔄 Unterstützung von Ergänzungsprüfungen
+  🎯 Sofortige Ergebnisanzeige
+  🌙 Dark Mode
 
-- **npm** (wird mit Node.js geliefert)
+## 🛠️ Technologie-Stack
 
-- **Git** (optional, falls du das Projekt aus einem Repository klonen möchtest)  
-  [Git herunterladen](https://git-scm.com)
+- **Framework:** Next.js 14
+- **UI Library:** Mantine UI 7
+- **Icons:** Tabler Icons
+- **Styling:** PostCSS mit Mantine Preset
+- **Type Safety:** TypeScript
+- **Animation:** Framer Motion
 
----
+## 📋 Prüfungsregeln
 
-## Installation
-
-1. **Repository klonen**  
-   Wenn das Projekt in einem Git-Repository gehostet wird, klone das Repository mit:
-   ```bash
-   git clone https://github.com/kramper5000/IHKgradecalc
-   cd IHKgradecalc
-   npm install
-   ```
-2. **Entwicklungsserver starten**
-   ```bash
-   npm run dev
-   ```
-   Damit wird der Entwicklungsserver und der JSON Server gestartet.
-3. **Tests starten**
-   ```bash
-   npm run test
-   ```
-   Damit werden die Tests gestartet.
-   
+- Gesamtergebnis mindestens Note 4 (≥ 50 Punkte)
+- Teil 2 mindestens Note 4 (≥ 50 Punkte)
+- Mindestens drei Prüfungsbereiche von Teil 2 mit Note 4 (≥ 50 Punkte)
+- Kein Prüfungsbereich von Teil 2 mit Note 6 (≤ 30 Punkte)
+- Eine Ergänzungsprüfung möglich bei 30-49 Punkten
