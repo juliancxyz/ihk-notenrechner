@@ -159,13 +159,14 @@ export default function HomePageComponent() {
 
           <Card shadow="sm" p="xl" radius="md" bg="dark.8" withBorder>
             <Stack gap="xl">
-              <Group justify="space-between" align="flex-start">
-                {/* TEIL 1 bleibt unverändert */}
-                <Stack w={250}>
+              <Group justify="space-between" align="flex-start" wrap="wrap">
+                {/* TEIL 1 */}
+                <Stack w={{ base: "100%", md: 250 }}>
                   <Divider
                     label={<Text c="blue.4">TEIL 1</Text>}
                     labelPosition="center"
                     size="sm"
+                    w="100%"
                   />
                   <Stack gap="lg">
                     <Group align="center" wrap="nowrap">
@@ -189,12 +190,13 @@ export default function HomePageComponent() {
                   </Stack>
                 </Stack>
 
-                {/* TEIL 2 - mit Ergänzungsprüfungen */}
-                <Stack w={300}>
+                {/* TEIL 2 - SCHRIFTLICH */}
+                <Stack w={{ base: "100%", md: 300 }}>
                   <Divider
                     label={<Text c="blue.4">TEIL 2 - SCHRIFTLICH</Text>}
                     labelPosition="center"
                     size="sm"
+                    w="100%"
                   />
                   <Stack gap="lg">
                     <Stack gap="xs">
@@ -355,12 +357,13 @@ export default function HomePageComponent() {
                   </Stack>
                 </Stack>
 
-                {/* TEIL 2 - PROJEKT bleibt unverändert */}
-                <Stack w={250}>
+                {/* TEIL 2 - PROJEKT */}
+                <Stack w={{ base: "100%", md: 250 }}>
                   <Divider
                     label={<Text c="blue.4">TEIL 2 - PROJEKT</Text>}
                     labelPosition="center"
                     size="sm"
+                    w="100%"
                   />
                   <Stack gap="lg">
                     <Group align="center" wrap="nowrap">
