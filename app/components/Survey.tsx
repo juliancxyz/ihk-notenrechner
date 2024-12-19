@@ -148,7 +148,8 @@ export function Survey() {
                       ))}
                     </SimpleGrid>
                     <Text size="xs" c="dimmed" ta="center">
-                      Deine Antwort hilft uns, die Inhalte besser anzupassen.
+                      Die Daten werden anonym gespeichert und nicht an Dritte
+                      weitergegeben.
                     </Text>
                   </Stack>
                 </motion.div>
