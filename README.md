@@ -8,10 +8,11 @@ Ein moderner Notenrechner für die Abschlussprüfung der IT-Berufe (Fachinformat
 - Teil 1 (20%)
 - Teil 2 Schriftlich (30%)
 - Teil 2 Projektarbeit (50%)
-  ✅ Automatische Prüfung der Bestehensregeln
-  🔄 Unterstützung von Ergänzungsprüfungen
-  🎯 Sofortige Ergebnisanzeige
-  🌙 Dark Mode
+- ✅ Automatische Prüfung der Bestehensregeln
+- 🔄 Unterstützung von Ergänzungsprüfungen
+- 🎯 Sofortige Ergebnisanzeige
+- 🌙 Dark Mode
+- 📱 Responsive Design
 
 ## 🛠️ Technologie-Stack
 
