@@ -1,0 +1,33 @@
+{
+  "name": "pruefer-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mantine/core": "7.15.1",
+    "@mantine/hooks": "^7.15.1",
+    "@mantine/notifications": "^7.15.1",
+    "@prisma/client": "^6.0.1",
+    "@tabler/icons-react": "^3.19.0",
+    "framer-motion": "^11.15.0",
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "eslint": "8.57.0",
+    "eslint-config-next": "^14.2.15",
+    "postcss": "^8.4.38",
+    "postcss-preset-mantine": "1.17.0",
+    "postcss-simple-vars": "^7.0.1",
+    "typescript": "^5.5.2"
+  }
+}
