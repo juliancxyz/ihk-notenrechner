@@ -21,6 +21,8 @@ export const metadata: Metadata = {
     "IHK Ergänzungsprüfung",
     "Prüfungsvorbereitung IT",
     "Ausbildung IT",
+    "Prüfungsrechner",
+    "IT-Abschlussprüfung",
   ],
   openGraph: {
     type: "website",
@@ -50,7 +52,7 @@ export default async function RootLayout({
   return (
     <html lang="de">
       <head>
-        <ColorSchemeScript defaultColorScheme="auto" />
+        <ColorSchemeScript defaultColorScheme="dark" />
         {process.env.NODE_ENV === "production" && (
           <Script
             defer
@@ -60,7 +62,7 @@ export default async function RootLayout({
         )}
       </head>
       <body style={{ backgroundColor: "var(--mantine-color-primary-9)" }}>
-        <MantineProvider defaultColorScheme="auto" theme={theme}>
+        <MantineProvider defaultColorScheme="dark" theme={theme}>
           <Stack justify="space-between" h="100vh">
             <Stack>{children}</Stack>
             <Footer />
