@@ -19,6 +19,38 @@ export function Footer() {
           by julian
         </Text>
       </Group>
+
+      <Group gap="xs" justify="center">
+        <Anchor
+          href="https://github.com/juliancxyz/ihk-notenrechner"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ActionIcon
+            variant="subtle"
+            size="sm"
+            c="dimmed"
+            aria-label="Zum GitHub Repository"
+          >
+            <IconBrandGithub width={16} />
+          </ActionIcon>
+        </Anchor>
+
+        <Anchor
+          href="https://github.com/juliancxyz/ihk-notenrechner/issues/new"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ActionIcon
+            variant="subtle"
+            size="sm"
+            c="dimmed"
+            aria-label="Fehler melden"
+          >
+            <IconBug width={16} />
+          </ActionIcon>
+        </Anchor>
+      </Group>
     </Stack>
   );
 }
