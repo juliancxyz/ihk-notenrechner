@@ -135,7 +135,7 @@ export default function HomePageComponent() {
           <Group align="center" w="100%" justify="center">
             <Stack gap={4} ta="center">
               <Group justify="center" gap={8}>
-                <Title c="white">Notenrechner</Title>
+                <Title c="white">Prüfungsrechner</Title>
                 <Popover width={350} position="bottom" withArrow shadow="md">
                   <Popover.Target>
                     <ActionIcon

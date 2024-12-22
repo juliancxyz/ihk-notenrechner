@@ -9,9 +9,9 @@ import Script from "next/script";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "IHK-Notenrechner | Fachinformatiker Abschlussprüfung",
+  title: "Fachinformatiker-Prüfungsrechner | IHK-Abschlussprüfung",
   description:
-    "Kostenloser IHK-Notenrechner für die Fachinformatiker Abschlussprüfung. Berechne deine Note mit Ergänzungsprüfungen nach aktuellen IHK-Richtlinien.",
+    "Kostenloser Fachinformatiker-Prüfungsrechner für die IHK-Abschlussprüfung. Berechne deine Note mit Ergänzungsprüfungen nach aktuellen IHK-Richtlinien.",
   keywords: [
     "IHK Notenrechner",
     "Fachinformatiker",
@@ -28,14 +28,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "de_DE",
     url: "https://rechner.julianc.xyz",
-    title: "IHK-Notenrechner für Fachinformatiker",
+    title: "Fachinformatiker-Prüfungsrechner | IHK-Abschlussprüfung",
     description:
       "Berechne deine Abschlussnote für die Fachinformatiker-Prüfung",
-    siteName: "IHK-Notenrechner",
+    siteName: "Fachinformatiker-Prüfungsrechner",
   },
   twitter: {
     card: "summary_large_image",
-    title: "IHK-Notenrechner für Fachinformatiker",
+    title: "Fachinformatiker-Prüfungsrechner | IHK-Abschlussprüfung",
     description:
       "Berechne deine Abschlussnote für die Fachinformatiker-Prüfung",
   },
